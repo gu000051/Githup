@@ -1,0 +1,44 @@
+/* My Awesome CSS */
+
+body {
+    background-color: pink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+header,footer {
+    background-color: coral;
+}
+
+.site-title {
+    color:white;
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+#remove {
+    list-style-type: none;
+}
+
+ul{
+    list-style-type: square;
+}
+
+article li:nth-child(odd) {
+    background: lightgreen;
+  }
+
+  a:link {
+    text-decoration: none; background-color: purple;
+  }
+
+  a:hover {
+    background-color: green;
+  }
+
+  a:link {
+    border-style: dotted;
+  }
+
